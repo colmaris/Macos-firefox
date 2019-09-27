@@ -1,0 +1,132 @@
+:root {
+	--bg-color: #323F4E;
+	--bg-alt: #323F4E;
+	--bg-tab: #43484e;
+	--hl-color: #3D4C5F;
+	--tx-color: #F8F8F2;
+	--tx-alt: #537268;
+}
+
+
+toolbox#navigator-toolbox {
+	background-color: var(--bg-color) !important;
+}
+
+#nav-bar {
+	background-color: var(--bg-alt) !important;
+	background-image: none !important;
+}
+
+.tabbrowser-tab {
+	font-family: Terminus;
+	color: var(--tx-alt) !important;
+}
+
+.tabbrowser-tab[selected="true"] {
+	color: var(--tx-color) !important;
+}
+
+.tab-background[selected="true"], #urlbar-container, #urlbar, #nav-bar-overflow-button, #PanelUI-button {
+	background-color: var(--bg-alt) !important;
+	background-image: none !important;
+	border: none !important;
+	color: var(--tx-color) !important;
+}
+
+tab:not([selected="true"]) {
+
+	background-color: var(--bg-tab) !important;
+	background-image: none !important;
+	border: none !important;
+	color: var(--tx-color) !important;
+
+} 
+tab:hover {
+
+background: var(--bg-color) !important;
+color: var(--tc-color) !important;
+
+} 
+
+#nav-bar-overflow-button, #PanelUI-button, #identity-box {
+	opacity: 0;
+	transition: .6s opacity ease;
+}
+
+#nav-bar-overflow-button:hover, #PanelUI-button:hover, #identity-box:hover {
+	opacity: 1;
+}
+
+.tabbrowser-tab[selected=true] {
+	border-top-color: var(--hl-color) !important;
+}
+
+#urlbar {
+	text-align: center;
+	opacity: .7;
+	font-size: 11px;
+	box-shadow: none !important;
+	font-family: Terminus;
+	color: var(--tx-color) !important;
+}
+
+#nav-bar {
+	box-shadow: none !important;
+}
+
+#urlbar[focused="true"] {
+	border-color: none !important;
+}
+
+.tab-line[selected=true] {
+	background-color: var(--hl-color) !important;
+}
+
+.tab-icon-sound {
+	opacity: .1 !important;
+}
+
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+	border-left: 0px solid !important;
+}
+
+#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true]) {
+	background-color: rgba(200,255,200,.05) !important;
+}
+
+window#main-window toolbox#navigator-toolbox toolbar#TabsToolbar.titlebar-color.customization-target tabs#tabbrowser-tabs {
+	background-color: #121B18;
+}
+
+.tab-label-container {
+	font-size: 12px !important;
+}
+
+.tab-icon-image {
+	opacity: 0.8 !important;
+	filter: grayscale(100%) contrast(50%) !important;
+}
+
+#navigator-toolbox::after {
+	content: "";
+	display: -moz-box;
+	border-bottom: none !important;
+}
+
+#navigator-toolbox toolbarbutton {
+    color: var(--tx-color) !important;
+}
+
+#back-button:not(:hover), #back-button:not(:hover) > .toolbarbutton-icon {
+	transform: scale(.95,.95) !important; 
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+	}
+#back-button:hover, #back-button:hover > .toolbarbutton-icon {
+	transform: scale(.95,.95) !important; 
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+	}
