@@ -186,7 +186,7 @@ window#main-window toolbox#navigator-toolbox toolbar#TabsToolbar.titlebar-color.
 /* Move navigation 65% to left and negative margin to move to top line */
 #nav-bar {
 	margin-right: 65vw !important;
-	margin-top: -29px !important;
+	margin-top: -35px !important;
 	background: transparent !important;
 	z-index: 2;
 }
