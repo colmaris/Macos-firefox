@@ -1,8 +1,6 @@
 Voici le userChrome.css que j'utilise avec Firefox pour qu'il soit raccord avec mon thème I3wm. J'ai aussi modifié sa structure car je ne supporte pas les onlgets au dessus de la barre d'aresse.
 
-
-{{< image src="/images/2019/10/firefox.gif" alt="image" position="center" style="border-radius: 8px;" >}}
-
+![image](https://draconis.me/images/2019/10/firefoxcss.gif)
 
 N'étant pas développeur j'ai associé des morceaux de codes que j'ai trouvé :
 
